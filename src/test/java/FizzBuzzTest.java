@@ -18,4 +18,9 @@ public class FizzBuzzTest {
         String result = new FizzBuzz().checkFizzBuzz(3);
         assertEquals("Fizz",result);
     }
+    @Test
+    public void returnBuzzfor5(){
+        String result = new FizzBuzz().checkFizzBuzz(5);
+        assertEquals("Buzz",result);
+    }
 }
